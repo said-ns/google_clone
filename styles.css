@@ -1,0 +1,145 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.dot {
+  width: 20px;
+  height: auto;
+  position: relative;
+  top: 5px;
+}
+
+a {
+  position: relative;
+  text-decoration: none;
+  color: gray;
+  margin-right: 15px;
+  margin-left: 15px;
+  top: 10px;
+  font-size: 15px;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.dot:hover {
+  opacity: 100%;
+}
+
+#signin {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  padding: 7px 12px;
+  border-radius: 5%;
+}
+
+#signin:hover {
+  background-color: #5b95f3;
+}
+
+.logo {
+  position: relative;
+  width: 240px;
+  margin: auto;
+  top: 120px;
+}
+
+.search {
+  position: relative;
+  margin: auto;
+  top: 120px;
+  right: 50px;
+  width: 500px;
+  left: 20px;
+}
+
+.searchbar {
+  width: 500px;
+  margin: auto;
+  height: 45px;
+  border-radius: 25px;
+  border-width: 0.5px;
+  border-color: rgb(201, 193, 193);
+  font-size: 16px;
+}
+
+.glass,
+.microphone {
+  width: 15px;
+  margin-top: 5px;
+}
+
+.glass {
+  position: absolute;
+  margin-top: 16px;
+  margin-left: 10px;
+  
+}
+
+.microphone {
+  position: absolute;
+  left: 470px;
+  bottom: 13px;
+}
+
+.searchbar:hover {
+  box-shadow: 1px 1px rgb(156, 154, 154);
+}
+
+.buttons {
+  display: flex;
+  margin-top: 160px;
+  justify-content: center;
+}
+
+.searchbtn {
+  padding: 10px;
+  margin-right: 10px;
+  border-style: none;
+  border-radius: 3%;
+}
+
+.lucky {
+  padding: 10px;
+  border-style: none;
+  border-radius: 3%;
+}
+
+.searchbtn:hover,
+.lucky:hover {
+  box-shadow: 1px 1px 1px 1px gray;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(233, 232, 232);
+  padding: 4px;
+
+}
+
+.footleft, .footright {
+  margin-bottom: 15px;
+}
